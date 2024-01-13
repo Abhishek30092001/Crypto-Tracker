@@ -6,7 +6,7 @@
 git clone 'https://github.com/Abhishek30092001/Crypto-Tracker.git'
 
 # cd into the project folder
-cd django-crypto-app
+cd django-Crypto-Tracker
 
 # create a virtualenv
 python -m venv env
