@@ -23,9 +23,12 @@ python manage.py migrate
 
 # delete existing database if necessary, overwrite and make your own migrations and users
 
-# create a superuser to login to the admin panel
-python manage.py createsuperuser
-
 # start the server
 python manage.py runserver
 # Django will start the server on port 8000 so open the browser and go to http://localhost:8000/
+
+
+# create a superuser to login to the admin panel
+python manage.py createsuperuser
+
+# Visit http://localhost:8000/admin to login to the admin panel
