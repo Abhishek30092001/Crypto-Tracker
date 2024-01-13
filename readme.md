@@ -18,7 +18,7 @@ env\Scripts\activate
 pip install -r requirements.txt
 
 # make migrations
-python manage.py makemigrations
+python manage.py makemigrations 
 python manage.py migrate
 
 # delete existing database if necessary, overwrite and make your own migrations and users
